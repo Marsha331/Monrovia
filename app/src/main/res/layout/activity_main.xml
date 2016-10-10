@@ -27,7 +27,7 @@
         android:background="?android:attr/selectableItemBackground">
         <TextView
             android:id="@+id/restaurants"
-            android:text="Restaurants"
+            android:text="@string/restaurants"
             android:textColor="@android:color/white"
             android:layout_height="100dp"
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
         android:background="?android:attr/selectableItemBackground">
         <TextView
             android:id="@+id/art"
-            android:text="Art in Monrovia"
+            android:text="@string/art"
             android:textColor="#006400"
             android:layout_height="100dp"
             android:layout_width="match_parent"
@@ -65,7 +65,7 @@
             android:id="@+id/filming"
             android:layout_height="100dp"
             android:layout_width="match_parent"
-            android:text="Filming Locations"
+            android:text="@string/filming"
             android:textSize="24sp"
             android:textColor="@android:color/white"
             android:gravity="center_vertical"
@@ -83,7 +83,7 @@
             android:id="@+id/things_to_do"
             android:layout_height="100dp"
             android:layout_width="match_parent"
-            android:text="Things To Do"
+            android:text="@string/things"
             android:textSize="24sp"
             android:textColor="#006400"
             android:gravity="center_vertical"

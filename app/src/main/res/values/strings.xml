@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Monrovia</string>
     <string name="welcome">Welcome to Monrovia, CA!</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="art">Art in Monrovia</string>
+    <string name="filming">Filming Locations</string>
+    <string name="things">Things to Do</string>
 </resources>
