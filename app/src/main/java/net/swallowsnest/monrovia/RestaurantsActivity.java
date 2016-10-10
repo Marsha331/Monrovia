@@ -17,13 +17,13 @@ public class RestaurantsActivity extends AppCompatActivity {
         setContentView(R.layout.sight_list);
 
         final ArrayList<Sight> sights = new ArrayList <Sight>();
-        sights.add(new Sight("Tommy's Burgers", "849 E Huntington Blvd"));
-        sights.add(new Sight("Rudy's Mexican", "602 S Myrtle Ave"));
-        sights.add(new Sight("Old Town Pizza", "338 S Myrtle Ave"));
-        sights.add(new Sight("Mooyah Burgers", "116 W Foothill Blvd"));
-        sights.add(new Sight("Jake's Roadhouse", "622 S Myrtle Ave"));
-        sights.add(new Sight("JB's Burgers", "627 S Myrtle Ave"));
-        sights.add(new Sight("Sow House", "404 S Myrtle Ave"));
+        sights.add(new Sight("@string/tommy", "@string/tommy_loc"));
+        sights.add(new Sight("@string/rudy", "@string/rudy_loc"));
+        sights.add(new Sight("@string/pizza", "@string/pizza_loc"));
+        sights.add(new Sight("@string/mooyah", "@string/mooyah_loc"));
+        sights.add(new Sight("@string/jake", "@string/jake_loc"));
+        sights.add(new Sight("@string/jb", "@string/jb_loc"));
+        sights.add(new Sight("@string/sow", "@string/sow_loc"));
 
         // Create an {@link SightAdapter}, whose data source is a list of {@link Sight}s. The
         // adapter knows how to create list items for each item in the list.

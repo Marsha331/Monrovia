@@ -17,11 +17,11 @@ public class ThingsActivity extends AppCompatActivity{
         setContentView(R.layout.sight_list);
 
         final ArrayList<Sight> sights = new ArrayList <Sight>();
-        sights.add(new Sight("Monrovia Falls", "Canyon Park - 1220 N Canyon Blvd", R.drawable.waterfall));
-        sights.add(new Sight("Upton Sinclair House", "464 N Myrtle Ave", R.drawable.sinclair_house));
-        sights.add(new Sight("Monrovia Historial Museum", "742 E Lemon Ave", R.drawable.history_museum));
-        sights.add(new Sight("Library Park", "321 S Myrtle Ave", R.drawable.library_park));
-        sights.add(new Sight("Krikorian Movie Theater", "410 S Myrtle Ave", R.drawable.krikorian));
+        sights.add(new Sight("@string/falls", "@string/falls_loc", R.drawable.waterfall));
+        sights.add(new Sight("@string/house", "@string/house_loc", R.drawable.sinclair_house));
+        sights.add(new Sight("@string/museum", "@string/museum_loc", R.drawable.history_museum));
+        sights.add(new Sight("@string/park", "@string/park_loc", R.drawable.library_park));
+        sights.add(new Sight("@string/krikorian", "@string/krikorian_loc", R.drawable.krikorian));
 
         // Create an {@link SightAdapter}, whose data source is a list of {@link Sight}s. The
         // adapter knows how to create list items for each item in the list.

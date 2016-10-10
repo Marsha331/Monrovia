@@ -17,11 +17,11 @@ public class FilmingActivity extends AppCompatActivity {
         setContentView(R.layout.sight_list);
 
         final ArrayList<Sight> sights = new ArrayList <Sight>();
-        sights.add(new Sight("Back to the Future 2 (1989)", "Jennifer's House: 161 N Magnolia Ave"));
-        sights.add(new Sight("Grosse Pointe Blank (1997)", "along Myrtle Ave"));
-        sights.add(new Sight("Bad Santa (2003)", "Brass Monkey Bar: 311 W Foothill Bl"));
-        sights.add(new Sight("Not Another Teen Movie (2001)", "Monrovia High"));
-        sights.add(new Sight("You Again (2010)", "Grandma Bunny's Home: 240 W Hillcrest Bl"));
+        sights.add(new Sight("@string/btf2", "@string/btf2_loc"));
+        sights.add(new Sight("@string/grosse", "@string/myrtle"));
+        sights.add(new Sight("@string/bad", "@string/bad_loc"));
+        sights.add(new Sight("@string/teen", "@string/teen_loc"));
+        sights.add(new Sight("@string/you", "@string/you_loc"));
 
         // Create an {@link SightAdapter}, whose data source is a list of {@link Sight}s. The
         // adapter knows how to create list items for each item in the list.

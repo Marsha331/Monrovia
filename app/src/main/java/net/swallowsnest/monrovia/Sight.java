@@ -25,7 +25,6 @@ public class Sight {
      */
     private static final int NO_IMAGE_PROVIDED = -1;
 
-
     public Sight(String name, String address) {
         mName = name;
         mAddress = address;
