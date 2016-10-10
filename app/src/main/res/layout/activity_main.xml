@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.swallowsnest.monrovia.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome_pic"
+        android:src="@drawable/monrovia"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:gravity="center_horizontal"
+        android:textColor="#006400"
+        android:textSize="30sp"/>
+    <!-- Restaurants category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground">
+        <TextView
+            android:id="@+id/restaurants"
+            android:text="Restaurants"
+            android:textColor="@android:color/white"
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:gravity="center_vertical"
+            android:background="#006400"
+            android:paddingLeft="30dp"/>
+    </FrameLayout>
+
+    <!-- Art category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground">
+        <TextView
+            android:id="@+id/art"
+            android:text="Art in Monrovia"
+            android:textColor="#006400"
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:gravity="center_vertical"
+            android:background="@android:color/white"
+            android:paddingLeft="30dp"/>
+    </FrameLayout>
+
+    <!-- Filming category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground">
+        <TextView
+            android:id="@+id/filming"
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:text="Filming Locations"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            android:background="#006400"
+            android:paddingLeft="30dp"/>
+    </FrameLayout>
+
+    <!-- Sights category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/things_to_do"
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:text="Things To Do"
+            android:textSize="24sp"
+            android:textColor="#006400"
+            android:gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:background="@android:color/white"/>
+    </FrameLayout>
+</LinearLayout>
