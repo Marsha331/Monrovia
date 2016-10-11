@@ -17,11 +17,11 @@ public class ArtActivity extends AppCompatActivity {
         setContentView(R.layout.sight_list);
 
         final ArrayList<Sight> sights = new ArrayList <Sight>();
-        sights.add(new Sight("@string/marktwain", "@string/library", R.drawable.mark_twain));
-        sights.add(new Sight("@string/bear", "@string/myrtle", R.drawable.bear));
-        sights.add(new Sight("@string/action", "@string/theater", R.drawable.action));
-        sights.add(new Sight("@string/fountain", "@string/library", R.drawable.fountain));
-        sights.add(new Sight("@string/book", "@string/ibrary", R.drawable.book_mural));
+        sights.add(new Sight(getString(R.string.marktwain), getString(R.string.library), R.drawable.mark_twain));
+        sights.add(new Sight(getString(R.string.bear), getString(R.string.myrtle), R.drawable.bear));
+        sights.add(new Sight(getString(R.string.action), getString(R.string.theater), R.drawable.action));
+        sights.add(new Sight(getString(R.string.fountain), getString(R.string.library), R.drawable.fountain));
+        sights.add(new Sight(getString(R.string.book), getString(R.string.library), R.drawable.book_mural));
 
         // Create an {@link SightAdapter}, whose data source is a list of {@link Sight}s. The
         // adapter knows how to create list items for each item in the list.

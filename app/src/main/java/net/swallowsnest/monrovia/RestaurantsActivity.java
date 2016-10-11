@@ -17,13 +17,13 @@ public class RestaurantsActivity extends AppCompatActivity {
         setContentView(R.layout.sight_list);
 
         final ArrayList<Sight> sights = new ArrayList <Sight>();
-        sights.add(new Sight("@string/tommy", "@string/tommy_loc"));
-        sights.add(new Sight("@string/rudy", "@string/rudy_loc"));
-        sights.add(new Sight("@string/pizza", "@string/pizza_loc"));
-        sights.add(new Sight("@string/mooyah", "@string/mooyah_loc"));
-        sights.add(new Sight("@string/jake", "@string/jake_loc"));
-        sights.add(new Sight("@string/jb", "@string/jb_loc"));
-        sights.add(new Sight("@string/sow", "@string/sow_loc"));
+        sights.add(new Sight(getString(R.string.tommy), getString(R.string.tommy_loc)));
+        sights.add(new Sight(getString(R.string.rudy), getString(R.string.rudy_loc)));
+        sights.add(new Sight(getString(R.string.pizza), getString(R.string.pizza_loc)));
+        sights.add(new Sight(getString(R.string.mooyah), getString(R.string.mooyah_loc)));
+        sights.add(new Sight(getString(R.string.jake), getString(R.string.jake_loc)));
+        sights.add(new Sight(getString(R.string.jb), getString(R.string.jb_loc)));
+        sights.add(new Sight(getString(R.string.sow), getString(R.string.sow_loc)));
 
         // Create an {@link SightAdapter}, whose data source is a list of {@link Sight}s. The
         // adapter knows how to create list items for each item in the list.

@@ -17,11 +17,11 @@ public class FilmingActivity extends AppCompatActivity {
         setContentView(R.layout.sight_list);
 
         final ArrayList<Sight> sights = new ArrayList <Sight>();
-        sights.add(new Sight("@string/btf2", "@string/btf2_loc"));
-        sights.add(new Sight("@string/grosse", "@string/myrtle"));
-        sights.add(new Sight("@string/bad", "@string/bad_loc"));
-        sights.add(new Sight("@string/teen", "@string/teen_loc"));
-        sights.add(new Sight("@string/you", "@string/you_loc"));
+        sights.add(new Sight(getString(R.string.btf2), getString(R.string.btf2_loc)));
+        sights.add(new Sight(getString(R.string.grosse), getString(R.string.myrtle)));
+        sights.add(new Sight(getString(R.string.bad), getString(R.string.bad_loc)));
+        sights.add(new Sight(getString(R.string.teen), getString(R.string.teen_loc)));
+        sights.add(new Sight(getString(R.string.you), getString(R.string.you_loc)));
 
         // Create an {@link SightAdapter}, whose data source is a list of {@link Sight}s. The
         // adapter knows how to create list items for each item in the list.
